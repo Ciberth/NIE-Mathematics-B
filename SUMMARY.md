@@ -2,9 +2,9 @@
 
 * [DVGs](dvg/README.md)
     * [Basisbegrippen](dvg/basisbegrippen.md)
-    * [DVGs eerste orde/graad](dvg/dvgseersteordegraad.md)
+    * [DVGs eerste orde/graad](dvg/dvgeersteordegraad.md)
     * [Toepassingen](dvg/toepassingen.md)
-    * [DVGs van hogere orde](dvg/dvgshogereorde.md)
+    * [DVGs van hogere orde](dvg/dvghogereorde.md)
     * [Linreaire DVGs](dvg/lineairedvgs.md)
 * [Laplace](laplace/README.md)
     * [Definitie & begrippen](laplace/basisbegrippen.md)
