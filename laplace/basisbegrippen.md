@@ -85,7 +85,7 @@ Men zegt dat f(t) dan van exponentiële orde a is indien a het **kleinste** geta
 
 Wil je dit _praktisch_ onderzoeken dan bereken je een limiet:
 
-Er bestaat een $$ a \in \mathbb{R} $$ zodat $$ \lim_{t \to +\infty} \frac{|f(t)|}{e^{at}} \in \mathbb{R} $$. 
+Er bestaat een $$ a \in \mathbb{R} $$ zodat $$ \lim\limits_{t \to +\infty} \frac{|f(t)|}{e^{at}} \in \mathbb{R} $$. 
 
 
 # Definitie van de Laplacetransformatie
