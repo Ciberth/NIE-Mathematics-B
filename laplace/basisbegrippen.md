@@ -23,3 +23,20 @@ De heaviside functie (ook wel eenheidsstapfunctie genoemd) wordt $$ \forall a \i
                 \end{array}
               \right.
 {% endmath %}
+
+Stuksgewijze continue functies worden vaak met behulp van de Heaviside functie gedefineerd. 
+
+Voorbeeld:
+
+{% math %}
+    f(t)=\left\{
+                \begin{array}{ll}
+                  0  \quad t < -2\\
+                  -1 \quad -2 < t < 0 \\
+                  1  \quad 0 < t < 1 \\
+                  0  \quad 1 < t
+                \end{array}
+              \right.
+{% endmath %}
+
+$$ f(t) $$ kan dan met met behulp van de Heaviside geschreven worden als $$ f(t) = -H(t+2) +2H(t)-H(t-1) $$.
