@@ -18,8 +18,8 @@ De heaviside functie (ook wel eenheidsstapfunctie genoemd) wordt $$ \forall a \i
 {% math %}
     H(t-a)=\left\{
                 \begin{array}{ll}
-                  0 t < a\\
-                  1 t > a 
+                  0 \quad t < a\\
+                  1 \quad t > a 
                 \end{array}
               \right.
 {% endmath %}
