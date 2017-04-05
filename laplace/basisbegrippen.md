@@ -43,7 +43,7 @@ $$ f(t) $$ kan dan met met behulp van de Heaviside geschreven worden als
 
 $$ f(t) = -H(t+2) +2H(t)-H(t-1) $$.
 
-**Tips & werkwijze:** Voeg altijd een regel toe die zegt dat de functie causaal is (dit is 0 voor t < 0). Redeneer en onthou "min de vorige plus de huidige" (of een variant min de huidige plus de volgende).
+**Tips & werkwijze:** Voeg altijd een regel toe die zegt dat de functie causaal is (dit is 0 voor t < 0). Redeneer en onthou "min de vorige plus de huidige" (of een variant: min de huidige plus de volgende).
 
 
 ## De Dirac deltafunctie
@@ -56,7 +56,7 @@ De Dirac deltafunctie (ook wel eenheidsimpuls genoemd) wordt $$ \forall a \in \m
 \left\{
                 \begin{array}{ll}
                   \delta(t-a)=0 \quad t \neq a\\
-                  \int_a-\epsilon_{1}^a+\epsilon_{2} \delta(t-a) dt = 1 \forall \epsilon_{1}, \epsilon{2} > 0 
+                  \int_a-\epsilon_{1}^a+\epsilon_{2} \delta(t-a) dt = 1 \quad \forall \epsilon_{1}, \epsilon{2} > 0 
                 \end{array}
               \right.
 {% endmath %}
@@ -79,10 +79,10 @@ Men noemt een functie $$ f(t) $$ **causaal** indien $$ f(t) = 0,\quadt < 0 $$. T
 Men noemt $$ f(t) $$ van **exponentiële orde** indien er reële constanten M en a bestaan, M > 0 zodat 
 
 
-$$ \forall t > N : |f(t)| < M e^(at) $$, of m.a.w $$ |f(t)|exp(-at) < M $$
+$$ \forall t > N : |f(t)| < M e^at $$, of m.a.w $$ |f(t)|exp^-at < M $$
 
-Men zegt dat f(t) dan van exponentiële orde a is indien a het kleinste getal is waarvoor dit geldt. 
+Men zegt dat f(t) dan van exponentiële orde a is indien a het **kleinste** getal is waarvoor dit geldt. 
 
 Wil je dit _praktisch_ onderzoeken dan bereken je een limiet:
 
-Er bestaat een $$ a \in \mathbb{R} $$ zodat $$ \lim{t \to +\infty} \frac{|f(t)|}{exp(at)} \in \mathbb{R} $$. 
+Er bestaat een $$ a \in \mathbb{R} $$ zodat $$ \[ \lim{t \to +\infty} \frac{|f(t)|}{e^at} \] \in \mathbb{R} $$. 
