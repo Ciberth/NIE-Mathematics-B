@@ -31,10 +31,10 @@ Voorbeeld:
 {% math %}
     f(t)=\left\{
                 \begin{array}{ll}
-                  0  \quad t < -2\\
+                  0  \quad \quad t < -2\\
                   -1 \quad -2 < t < 0 \\
-                  1  \quad 0 < t < 1 \\
-                  0  \quad 1 < t
+                  1  \quad \quad 0 < t < 1 \\
+                  0  \quad \quad 1 < t
                 \end{array}
               \right.
 {% endmath %}
