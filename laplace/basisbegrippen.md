@@ -85,4 +85,26 @@ Men zegt dat f(t) dan van exponentiële orde a is indien a het **kleinste** geta
 
 Wil je dit _praktisch_ onderzoeken dan bereken je een limiet:
 
-Er bestaat een $$ a \in \mathbb{R} $$ zodat $$ \[ \lim{t \to +\infty} \frac{|f(t)|}{e^{at} \] \in \mathbb{R} $$. 
+Er bestaat een $$ a \in \mathbb{R} $$ zodat $$ \lim{t \to +\infty} \frac{|f(t)|}{e^{at}} \in \mathbb{R} $$. 
+
+
+# Definitie van de Laplacetransformatie
+
+
+Is f(t) causaal, dan definieert men de Laplacegetransformeerde van f(t) als de oneigenlijke Riemann-integraal:
+
+$$ \mathscr{L}\{f(t)\}(s) = F(s) = \int_0^{+\infty} f(t)e^{-st} dt , \quad s \in \mathbb{C} $$.
+
+De Laplacegetransformeerde is dus een functie van $$ s \in \mathbb{C} $$ en zet een causale functie in t om naar een functie over de complexe getallen ( $$ = F(s) $$).
+
+
+**Opmerking 1:** Uit de definitie blijkt dat het bestaan van $$ \mathscr{L}\{f(t)\}(s) $$ evenwaardig is met het convergeren van de oneigenlijke integraal. Deze integraal hangt af van de causale functie en van de complexe variabele s.
+
+TODO bewijs (p5): aantonen dat F(s) bestaat indien de integraal **absoluut* convergeert.
+
+**Opmerking 2:** Uit de definitie volgt ook de **lineariteit** van de Laplacetransformatie.
+
+
+TODO 2.1 voldoende voorwaarde voor het bestaan van L(f(t))
+
+
