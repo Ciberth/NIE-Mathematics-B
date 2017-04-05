@@ -53,7 +53,7 @@ $$ f(t) = -H(t+2) +2H(t)-H(t-1) $$.
 De Dirac deltafunctie (ook wel eenheidsimpuls genoemd) wordt $$ \forall a \in \mathbb{R} $$ gedefineerd als:
 
 {% math %}
-\{
+\left\{
                 \begin{array}{ll}
                   \delta(t-a)=0 \quad t \neq a\\
                   \int_a-\epsilon_{1}^a+\epsilon_{2} \delta(t-a) dt = 1 \forall \epsilon_{1}, \epsilon{2} > 0 
@@ -67,22 +67,22 @@ De Dirac deltafunctie kan men beschouwen als een **limiet** van een reeks functi
 
 1. $$ \int_-\infty^+\infty f(t)\delta(t-a) dt = f(a) $$ voor elke functie $$ f(t) $$ continu in de omgeving van a.
 
-2. $$ \frac{\mathrm{d}H(t-a)}{\mathrm{d}x} = \delta(t-a) $$.
+2. $$ \frac{\mathrm{d}H(t-a)}{\mathrm{d}t} = \delta(t-a) $$.
 
 
 ## Causale functie
 
-Men noemt een functie $$ f(t) $$ **causaal** indien $$ f(t) = 0, \quad t < 0 $$. Tijdsafhankelijke functies illustreren dit (vandaar ook de keuze t als afhankelijke veranderlijke). 
+Men noemt een functie $$ f(t) $$ **causaal** indien $$ f(t) = 0,\quadt < 0 $$. Tijdsafhankelijke functies illustreren dit (vandaar ook de keuze t als afhankelijke veranderlijke). 
 
 ## Functies van exponentiële orde
 
 Men noemt $$ f(t) $$ van **exponentiële orde** indien er reële constanten M en a bestaan, M > 0 zodat 
 
 
-$$ \forallt > N : |f(t)| < Mexp(at), of m.a.w |f(t)|exp(-at) < M $$
+$$ \forall t > N : |f(t)| < M e^(at) $$, of m.a.w $$ |f(t)|exp(-at) < M $$
 
 Men zegt dat f(t) dan van exponentiële orde a is indien a het kleinste getal is waarvoor dit geldt. 
 
 Wil je dit _praktisch_ onderzoeken dan bereken je een limiet:
 
-Er bestaat een $$ a \in \mathbb{R} zodat \lim{t \to +\infty} \frac{|f(t)|}{exp(at)} \in \mathbb{R} $$. 
+Er bestaat een $$ a \in \mathbb{R} $$ zodat $$ \lim{t \to +\infty} \frac{|f(t)|}{exp(at)} \in \mathbb{R} $$. 
