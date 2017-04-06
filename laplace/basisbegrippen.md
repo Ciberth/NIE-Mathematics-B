@@ -98,13 +98,16 @@ $$ \mathscr{L}\{f(t)\}(s) = F(s) = \int_0^{+\infty} f(t)e^{-st} dt , \quad s \in
 De Laplacegetransformeerde is dus een functie van $$ s \in \mathbb{C} $$ en zet een causale functie in t om naar een functie over de complexe getallen ( $$ = F(s) $$).
 
 
-**Opmerking 1:** Uit de definitie blijkt dat het bestaan van $$ \mathscr{L}\{f(t)\}(s) $$ evenwaardig is met het convergeren van de oneigenlijke integraal. Deze integraal hangt af van de causale functie en van de complexe variabele s.
-
 TODO bewijs (p5): aantonen dat F(s) bestaat indien de integraal **absoluut* convergeert.
+
+
+**Opmerking 1:** Uit de definitie blijkt dat het bestaan van $$ \mathscr{L}\{f(t)\}(s) $$ evenwaardig is met het convergeren van de oneigenlijke integraal. Deze integraal hangt af van de causale functie en van de complexe variabele s.
 
 **Opmerking 2:** Uit de definitie volgt ook de **lineariteit** van de Laplacetransformatie.
 
+Het Laplacebeeld bestaat indien f(t) **causaal** is, **stuksgewijs continue** over elk eindig interval ]0,N] en **exponentieel van orde a** voor t > N. 
 
-TODO 2.1 voldoende voorwaarde voor het bestaan van L(f(t))
+Merk ook op dat het laplacebeeld enkel gedefineerd is voor causale functies. Impliciet staat de Heaviside functie in t (H(t)) ook na elke functie (=causaal).
+
 
 
