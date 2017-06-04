@@ -1,16 +1,5 @@
 # Basisbegrippen Laplace
 
-Dit is een temp test voor latex.
-
-When {% math %}a \ne 0{% endmath %}, there are two solutions to {% math %}(ax^2 + bx + c = 0){% endmath %} and they are {% math %}x = {-b \pm \sqrt{b^2-4ac} \over 2a}.{% endmath %}
-
-
-When $$a \ne 0$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-
-
-
-# Definities 
-
 ## De Heaviside functie
 
 De heaviside functie (ook wel eenheidsstapfunctie genoemd) wordt $$ \forall a \in \mathbb{R} $$ gedefineerd als:
@@ -98,7 +87,7 @@ $$ \mathscr{L}\{f(t)\}(s) = F(s) = \int_0^{+\infty} f(t)e^{-st} dt , \quad s \in
 De Laplacegetransformeerde is dus een functie van $$ s \in \mathbb{C} $$ en zet een causale functie in t om naar een functie over de complexe getallen ( $$ = F(s) $$).
 
 
-TODO bewijs (p5): aantonen dat F(s) bestaat indien de integraal **absoluut* convergeert.
+TODO bewijs (p5): aantonen dat F(s) bestaat indien de integraal **absoluut** convergeert.
 
 
 **Opmerking 1:** Uit de definitie blijkt dat het bestaan van $$ \mathscr{L}\{f(t)\}(s) $$ evenwaardig is met het convergeren van de oneigenlijke integraal. Deze integraal hangt af van de causale functie en van de complexe variabele s.

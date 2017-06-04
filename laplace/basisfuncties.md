@@ -4,7 +4,7 @@
 
 TODO: Zie Formularium 
 
-TODO: bewijs cos en sin uit formule van euler
+TODO: bewijs cos en sin uit formule van Euler
 
 ## Rekenregels en stellingen
 
@@ -18,7 +18,6 @@ TODO: bewijs cos en sin uit formule van euler
 - Laplacegetransformeerde van $$ \frac{f(t)}{t} $$ of de integraalregel voor de beeldfunctie F(s)
 - Laplacebeeld van een periodieke functie
 - De convolutiestelling
-- 
 
 
 
