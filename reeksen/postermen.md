@@ -17,6 +17,8 @@ Zijn $$ \sum a_n $$ en $$ \sum b_n $$ twee reeksen met positieve termen waarvoor
 
 $$ \sum b_n $$ is convergent $$ \implies \sum a_n $$ is convergent $$
 
+en
+
 $$ \sum a_n $$ is divergent $$ \implies \sum b_n $$ is divergent $$
 
 ## Vergelijkingscriterium 2
