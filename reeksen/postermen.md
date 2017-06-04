@@ -8,7 +8,7 @@ Als er voor een reeks met positieve termen $$ \sum a_n $$ een reële functie _f_
 dan geldt:
 
 - $$ \int_m^\infty f(x)dx \in \mathbb{R} \implies \sum a_n $$ is convergent 
-- $$ \int_m^\infty f(x)dx \infty \implies \sum a_n $$ divergent naar $$ \infty $$ 
+- $$ \int_m^\infty f(x)dx = \infty \implies \sum a_n $$ divergent naar $$ \infty $$ 
 
 
 ## Vergelijkingscriterium 1
@@ -16,6 +16,7 @@ dan geldt:
 Zijn $$ \sum a_n $$ en $$ \sum b_n $$ twee reeksen met positieve termen waarvoor $$ a_n \leq b_n $$ (met a de minorante reeks en b de majorante) dan geldt:
 
 $$ \sum b_n $$ is convergent $$ \implies \sum a_n $$ is convergent $$
+
 $$ \sum a_n $$ is divergent $$ \implies \sum b_n $$ is divergent $$
 
 ## Vergelijkingscriterium 2
