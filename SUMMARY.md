@@ -14,10 +14,10 @@
     * [Praktische voorbeelden](laplace/vbn.md)
 * [Reeksen](reeksen/README.md)
     * [Algemene begrippen](reeksen/begrippen.md)
-    * [Reeksen met uitsluitend positieve termen](postermen.md)
-    * [Willekeurige reeksen](willekeurig.md)
-    * [Reeksen van functies](functies.md)
-    * [Taylor- en McLaurinreeksen](taylormclaurin.md)
-    * [Fourierreeksen](fourrier.md)
+    * [Reeksen met uitsluitend positieve termen](reeksen/postermen.md)
+    * [Willekeurige reeksen](reeksen/willekeurig.md)
+    * [Reeksen van functies](reeksen/functies.md)
+    * [Taylor- en McLaurinreeksen](reeksen/taylormclaurin.md)
+    * [Fourierreeksen](reeksen/fourrier.md)
 
 
