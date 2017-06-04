@@ -1,0 +1,3 @@
+# Fourierreeksen
+
+Zie cursus (TODO)
